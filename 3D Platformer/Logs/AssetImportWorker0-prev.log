@@ -1,0 +1,1271 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8097 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/30/Documents/Анастасия Чуднова НЕ УДАЛЯТЬ/3D Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62758
+Successfully changed project path to: C:/Users/30/Documents/Анастасия Чуднова НЕ УДАЛЯТЬ/3D Platformer
+C:/Users/30/Documents/Анастасия Чуднова НЕ УДАЛЯТЬ/3D Platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 149.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/30/Documents/Анастасия Чуднова НЕ УДАЛЯТЬ/3D Platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4048 MB
+    Driver:   27.20.100.8729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007527 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 356.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1220ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (634ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (357ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1683ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1321ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (83.2 KB). Loaded Objects now: 3908.
+Memory consumption went from 138.5 MB to 138.4 MB.
+Total: 5.078800 ms (FindLiveObjects: 0.360700 ms CreateObjectMapping: 0.418000 ms MarkObjects: 4.134800 ms  DeleteObjects: 0.163500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198671.516908 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/ToolsAndWeapons/Models/axe.fbx
+  artifactKey: Guid(00ec6fc6a42644052a1940f602652cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/ToolsAndWeapons/Models/axe.fbx using Guid(00ec6fc6a42644052a1940f602652cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de38990ca75ff3f6c1b47189230bee26') in 1.832818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/balcony_3.prefab
+  artifactKey: Guid(473dc35e42dda5641bd3241cece97eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/balcony_3.prefab using Guid(473dc35e42dda5641bd3241cece97eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd2f62310ac9fbe5c4e5de181ce3b8b') in 0.571548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel_group.prefab
+  artifactKey: Guid(84573fa2e72500d49835406b46d71622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel_group.prefab using Guid(84573fa2e72500d49835406b46d71622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d705b87a5b51f53bff4ef008b22346b') in 0.047336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel.prefab
+  artifactKey: Guid(55eac99f5049e5045a42f2528f476504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel.prefab using Guid(55eac99f5049e5045a42f2528f476504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e9d84979b265a2bf7bb162786d3bdb') in 0.032242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/balcony_2.prefab
+  artifactKey: Guid(d9994290a3429744c9b00201ba123d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/balcony_2.prefab using Guid(d9994290a3429744c9b00201ba123d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21be3a33a1573840977659b1abb96735') in 0.053708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level_1/ThirdParty/Forest Arena/PrefabsBlue/Pieces/BannerBlue.prefab
+  artifactKey: Guid(db102576eb836d94a857fa67e5db659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Forest Arena/PrefabsBlue/Pieces/BannerBlue.prefab using Guid(db102576eb836d94a857fa67e5db659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126f10427887f274f2a22d31d35c920c') in 0.269821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_props/banner.prefab
+  artifactKey: Guid(195ee2530fc763341a03f3df4b50ed56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_props/banner.prefab using Guid(195ee2530fc763341a03f3df4b50ed56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ca38da626959471000f2f8cd17a6da') in 0.083176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Level_1/ThirdParty/Forest Arena/PrefabsBlue/Pieces/BannerBlueSmall.prefab
+  artifactKey: Guid(f052ac6475e6a724199c149b29960b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Forest Arena/PrefabsBlue/Pieces/BannerBlueSmall.prefab using Guid(f052ac6475e6a724199c149b29960b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baed7a8f1c2cfc607038ed1d124708cf') in 0.042402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/Materials/BushLeaves1.mat
+  artifactKey: Guid(bdc7c48f5b4a0416db74696c59e06a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/Materials/BushLeaves1.mat using Guid(bdc7c48f5b4a0416db74696c59e06a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8133f3fbbe4ff302c304979ed69d2ae') in 0.104803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level_1/ThirdParty/Level 1 Monster Pack/Models/Materials/Bat_Color.mat
+  artifactKey: Guid(7d182f8194cea4735bff850e8e27b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Level 1 Monster Pack/Models/Materials/Bat_Color.mat using Guid(7d182f8194cea4735bff850e8e27b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea742ca8096bb7de3a3ef0a7a2811e1d') in 0.051893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush1.mat
+  artifactKey: Guid(21b04b527c5fa45ddb54962658878374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush1.mat using Guid(21b04b527c5fa45ddb54962658878374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de0ff19f79d57ef7d89689c4409e00a') in 0.047771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Level_1/ThirdParty/Nature pack extended/Materials/BackColor.mat
+  artifactKey: Guid(7856d6190e1f6fb41bdf253412cc704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Nature pack extended/Materials/BackColor.mat using Guid(7856d6190e1f6fb41bdf253412cc704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea95dcc7c33f07428cb6f820db3da56') in 0.047217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush3.mat
+  artifactKey: Guid(98ea9c6d166994aa58535930a7c47450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush3.mat using Guid(98ea9c6d166994aa58535930a7c47450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad84d073e6d7ff9586b759a54582dd0a') in 0.051774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level_2/Art/Materials/Base.mat
+  artifactKey: Guid(03238438be47f4a4c90a6f329fde9e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_2/Art/Materials/Base.mat using Guid(03238438be47f4a4c90a6f329fde9e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ddcca1436ecc1d7cf1d58246942c98') in 0.056452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/Materials/BushLeaves2.mat
+  artifactKey: Guid(43c4290542df04126b8080c8e9a8aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/Materials/BushLeaves2.mat using Guid(43c4290542df04126b8080c8e9a8aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ba250f001404afff6564b7ef11293') in 0.043267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Level_1/ThirdParty/Forest Arena/PrefabsRed/Pieces/BannerRED.prefab
+  artifactKey: Guid(e92c77f66160f094e9b62b8ad6ac2c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Forest Arena/PrefabsRed/Pieces/BannerRED.prefab using Guid(e92c77f66160f094e9b62b8ad6ac2c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65212cf72e6ba7c68cfe18b65541ce6b') in 0.040922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level_1/ThirdParty/Level 1 Monster Pack/Materials/Bat/Bat_Red.mat
+  artifactKey: Guid(6a9d5602ab51ed243b686397b63daeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Level 1 Monster Pack/Materials/Bat/Bat_Red.mat using Guid(6a9d5602ab51ed243b686397b63daeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69260404db67174416bf6370df31cf29') in 0.670197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1021.388964 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/building_base_a.FBX
+  artifactKey: Guid(d0df16f92c0bef94a80314539b15eab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/building_base_a.FBX using Guid(d0df16f92c0bef94a80314539b15eab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aa2507e5845e1eedcebd2e31797e76') in 0.073585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_gate_a.FBX
+  artifactKey: Guid(ee05a5bc585b53f459ae5c3a598aa081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_gate_a.FBX using Guid(ee05a5bc585b53f459ae5c3a598aa081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ca6d41529e183388acb98c5059a227') in 0.060546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_tower_rectangular.FBX
+  artifactKey: Guid(c5d5cab5fabe2444796202d232b7c886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_tower_rectangular.FBX using Guid(c5d5cab5fabe2444796202d232b7c886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7959edb8e12bff3281e2059c5c98aec') in 0.053193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_door_1.FBX
+  artifactKey: Guid(71a99689b3357f847a20ce395f70afef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_door_1.FBX using Guid(71a99689b3357f847a20ce395f70afef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42269fde8bb4bc4044b8921cadd971d') in 0.045223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.897718 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_tower_round.FBX
+  artifactKey: Guid(3aa8fc45fd385be41b6a3ced702258b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_tower_round.FBX using Guid(3aa8fc45fd385be41b6a3ced702258b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5addb2e03e3c856156b0ec6e37ea3808') in 0.078279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_5m.FBX
+  artifactKey: Guid(c6f3987abbd0feb46968e26bb27a6835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_5m.FBX using Guid(c6f3987abbd0feb46968e26bb27a6835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f218204117c8dbea2ed20241ac3076') in 0.074130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_incline_uper.FBX
+  artifactKey: Guid(28952de306378314aaa188484ad62067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_incline_uper.FBX using Guid(28952de306378314aaa188484ad62067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befe4d5da227693ed6d5eb7c56f7c790') in 0.053751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_15m.FBX
+  artifactKey: Guid(d80e2cb9a00dc204c9d38efaca9285c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_15m.FBX using Guid(d80e2cb9a00dc204c9d38efaca9285c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e87ad6923ac2d318ee8808a2b602c11') in 0.060858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_5m_h21m.FBX
+  artifactKey: Guid(a9040f687666f174cbcf96375234bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/castle_wall_5m_h21m.FBX using Guid(a9040f687666f174cbcf96375234bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4253907590b051d67cdaeb65f57fc8') in 0.051032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099359 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/church_a.FBX
+  artifactKey: Guid(6576829602d7ea2459ca17fe0547fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/church_a.FBX using Guid(6576829602d7ea2459ca17fe0547fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383f570e29f548dab7ae8b60b44327ab') in 0.092028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/church_c.FBX
+  artifactKey: Guid(9906240cad1ee95419939f4697357d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/church_c.FBX using Guid(9906240cad1ee95419939f4697357d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0344d00b26af4d7970b034233b7d4dc0') in 0.083109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126293 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_bridge.FBX
+  artifactKey: Guid(3bb9d063a89b65548ad1df3aa1919330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_bridge.FBX using Guid(3bb9d063a89b65548ad1df3aa1919330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773ce6c33700218c4fdb8f239e08e17') in 0.054453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_wall_incline.FBX
+  artifactKey: Guid(7d3e4ed320b637a44aa1dbcd886ad34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_wall_incline.FBX using Guid(7d3e4ed320b637a44aa1dbcd886ad34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82af86301f6926a56a7c7926a0a908d') in 0.184300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_tower_b.FBX
+  artifactKey: Guid(fd526b87fb5327147ad3b26bb04ec63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_tower_b.FBX using Guid(fd526b87fb5327147ad3b26bb04ec63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdc0c32ebdfc048527523ce8127bbb4') in 0.069156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_tower_d.FBX
+  artifactKey: Guid(05741e75f73f6774eadbab56684e71a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_tower_d.FBX using Guid(05741e75f73f6774eadbab56684e71a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9cd26e01d924774ba13103361c3a59') in 0.061641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_wall_b.FBX
+  artifactKey: Guid(d2aafee231e260e449516838ffcdb3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_wall_b.FBX using Guid(d2aafee231e260e449516838ffcdb3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fc26953a2636c9f2279c21bac352b9') in 0.054821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_tower_f.FBX
+  artifactKey: Guid(f583b76f151a3ea408e2801ea819059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/citadel_tower_f.FBX using Guid(f583b76f151a3ea408e2801ea819059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff8db5caf56521742aecc87c550fc13') in 0.055552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/city_tower_a.FBX
+  artifactKey: Guid(32311d0811c6d7d46a7ff6143a99818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/city_tower_a.FBX using Guid(32311d0811c6d7d46a7ff6143a99818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd35c5ad555a7d6f6747cdb039e91a0') in 0.056438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.425957 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Terrain/cliff_01.FBX
+  artifactKey: Guid(58379ff237ae7ef4082fb2cc1cb3b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Terrain/cliff_01.FBX using Guid(58379ff237ae7ef4082fb2cc1cb3b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78393a8e7ef44005a755c764df6fb90') in 0.125762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_bench.fbx
+  artifactKey: Guid(bf17a8e414fa444cbaa9cc2eaa9d18b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_bench.fbx using Guid(bf17a8e414fa444cbaa9cc2eaa9d18b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e511ea57238a2d44288d399365fc67ac') in 0.063302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Trees/dead_tree_c.FBX
+  artifactKey: Guid(11c7098f2a19a4f4b83e66024cb30219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Trees/dead_tree_c.FBX using Guid(11c7098f2a19a4f4b83e66024cb30219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d0b17a1bfddfde838d97e0bd49d78d') in 0.102290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_wall_stone_half.fbx
+  artifactKey: Guid(c5d8c07bd97114cb9ac3c59be96c02ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_wall_stone_half.fbx using Guid(c5d8c07bd97114cb9ac3c59be96c02ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c2d4431be88ee206ed61d871ce7a14') in 0.100026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_grass_2.fbx
+  artifactKey: Guid(2892760aaa15d43358ef5822cfd3a7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_grass_2.fbx using Guid(2892760aaa15d43358ef5822cfd3a7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f4744dd30b4bdf93131acfa3eb3518') in 0.064522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Level_2/ThirdParty/Snowed Fence/FBX/fence_single.FBX
+  artifactKey: Guid(86f105d9ae9ae1f4e9e6e171226cac7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_2/ThirdParty/Snowed Fence/FBX/fence_single.FBX using Guid(86f105d9ae9ae1f4e9e6e171226cac7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5129069f7434d31e51b2ba02345e1ff5') in 0.216233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_stone_2.fbx
+  artifactKey: Guid(3d08861b341c84790a5535da1cc6fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_stone_2.fbx using Guid(3d08861b341c84790a5535da1cc6fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3e37d5219f2471128d3aa7950ef53c') in 0.059270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_tree_4.fbx
+  artifactKey: Guid(d9c1ae3b8cdd64725a2b3e01dc735436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_tree_4.fbx using Guid(d9c1ae3b8cdd64725a2b3e01dc735436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228dd2e56eb8103e9036d494cf9ac158') in 0.094365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Trees/dead_tree_a.FBX
+  artifactKey: Guid(a2e235f90cdccc940aa4ea1632f74c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Trees/dead_tree_a.FBX using Guid(a2e235f90cdccc940aa4ea1632f74c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f7f734f864fe46a33f72b10d4dc389') in 0.042079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/fortification_gate.FBX
+  artifactKey: Guid(0648d4361d8a07d44921f1db2e15b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/fortification_gate.FBX using Guid(0648d4361d8a07d44921f1db2e15b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf10486b3e20d03db9083e6a89ad5eca') in 0.050486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/fortification_tower_big.FBX
+  artifactKey: Guid(4e15f336d381cb24ea6d425151a57695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/fortification_tower_big.FBX using Guid(4e15f336d381cb24ea6d425151a57695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caa381a00ef3e331daaa94369c8fd32') in 0.053303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_wall_stone_1.fbx
+  artifactKey: Guid(81106dc61cc6340eda29053a25043f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_wall_stone_1.fbx using Guid(81106dc61cc6340eda29053a25043f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b39a333a1057ef00f96ea6fe8bd4bd') in 0.073601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_rock_3.fbx
+  artifactKey: Guid(b4e34f37515b540dea5e4843c169c101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_rock_3.fbx using Guid(b4e34f37515b540dea5e4843c169c101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10ae51a70b00f8dac145b5ff9b1d16f') in 0.070131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Terrain/cliff_03.FBX
+  artifactKey: Guid(d7834a2d3936cd64792a3bdb565e2b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Terrain/cliff_03.FBX using Guid(d7834a2d3936cd64792a3bdb565e2b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f3aad83799611e2a4b28f72feac8e0') in 0.062679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_mushroom_3.fbx
+  artifactKey: Guid(4004726cc14b84fe08b71de76a777763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_mushroom_3.fbx using Guid(4004726cc14b84fe08b71de76a777763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357af44d8e304219994b348e72823bf5') in 0.070926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/crusader_headquarter.FBX
+  artifactKey: Guid(a742f54a31396744f823b786554411b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Unique_Buildings/crusader_headquarter.FBX using Guid(a742f54a31396744f823b786554411b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a637aace546262005ffcb715ab162e') in 0.062720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_bush_5.fbx
+  artifactKey: Guid(9669d33f57c7d4236bce20ec9a10a1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_bush_5.fbx using Guid(9669d33f57c7d4236bce20ec9a10a1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f65d65658b39122f86d7001ac16fea3') in 0.057060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_moss_1.fbx
+  artifactKey: Guid(4612a608d3aeb4b90a6b1c9e044ece38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/enchantedforest_moss_1.fbx using Guid(4612a608d3aeb4b90a6b1c9e044ece38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986ad6b88f569ff340efec594a4a95ae') in 0.047630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Trees/dead_tree_f.FBX
+  artifactKey: Guid(3fa8cd6c7ff080b4eb5dd7ee8a9c22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Models/Trees/dead_tree_f.FBX using Guid(3fa8cd6c7ff080b4eb5dd7ee8a9c22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d45046cc557ac33e5a2d743c4391b7') in 0.052313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Level_2/ThirdParty/Snowed Fence/FBX/fence_double.FBX
+  artifactKey: Guid(62fa28cbb204e4546a2ad5c1580ee188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_2/ThirdParty/Snowed Fence/FBX/fence_double.FBX using Guid(62fa28cbb204e4546a2ad5c1580ee188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97b4afb1aacf4c04eec1f548c600b1f') in 0.062953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.633195 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_column_2.fbx
+  artifactKey: Guid(d56dfd26ed8664782aad4a260be4c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_column_2.fbx using Guid(d56dfd26ed8664782aad4a260be4c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7de1bab2fcd93592cb8933eb74430e') in 0.075776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.711212 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_roof_1.fbx
+  artifactKey: Guid(8a3797fbe413e4764a445981e28ab2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_roof_1.fbx using Guid(8a3797fbe413e4764a445981e28ab2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f55364c236c46cdac627a96a9554be') in 0.118283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_roof_support_1_square.fbx
+  artifactKey: Guid(a65dcd75712c34e32a907106630cc03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_roof_support_1_square.fbx using Guid(a65dcd75712c34e32a907106630cc03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09d7ebcecddeca44d097803ca64ba65') in 0.071386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275297 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_stairs_stone.fbx
+  artifactKey: Guid(8ddde200adcef45bd82fad13528a8f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_stairs_stone.fbx using Guid(8ddde200adcef45bd82fad13528a8f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265ca9ed83cc2f16e5d178f5ef939a67') in 0.100697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_1_short.fbx
+  artifactKey: Guid(3242d7363a25a4d4bb2d19e5fef3decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_1_short.fbx using Guid(3242d7363a25a4d4bb2d19e5fef3decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73592c4c8886f02d5b1c3c1ea04e9b28') in 0.057842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.859344 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_2_corner.fbx
+  artifactKey: Guid(bf26b16c8239f4f59a365eea0b3fec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_2_corner.fbx using Guid(bf26b16c8239f4f59a365eea0b3fec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd5871137cf9e70ffef41f124aa1181') in 0.063079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_column_1.fbx
+  artifactKey: Guid(ca0f1ba41347b4c5792659c6befeebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_column_1.fbx using Guid(ca0f1ba41347b4c5792659c6befeebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa944315b115c7c8030636fb2d4c4fdf') in 0.049047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476468 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_divider_2.fbx
+  artifactKey: Guid(dd1d1adab78eb4a5d9e2669fcfe5e949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/GreekPack1Lite/Models/Optimized/greek_wall_divider_2.fbx using Guid(dd1d1adab78eb4a5d9e2669fcfe5e949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f799cd400ca08966c88db5b34bb4d0') in 0.146824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_bush_palm.fbx
+  artifactKey: Guid(2b681f10b16474ce18805df07af8c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_bush_palm.fbx using Guid(2b681f10b16474ce18805df07af8c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e3beafe573a8ec1bfe2920646c9962') in 0.096984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_crate_2.fbx
+  artifactKey: Guid(ba40c334277cf4c1a8b4cbb1321ac730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_crate_2.fbx using Guid(ba40c334277cf4c1a8b4cbb1321ac730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd939d786ca368a5693bf81711f0e9403') in 0.074251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_crate.fbx
+  artifactKey: Guid(738046c31b319444bbf194bbd23fbdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_crate.fbx using Guid(738046c31b319444bbf194bbd23fbdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89ac46333a707ba10641baf22d5a1c3') in 0.059660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_dock.fbx
+  artifactKey: Guid(18a6e6137a3994f81aacea552575ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_dock.fbx using Guid(18a6e6137a3994f81aacea552575ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8b75992c9aaeb5610ecc9c01b8a2a3') in 0.083281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_plant_5.fbx
+  artifactKey: Guid(d458e01886c684a449abefca599d5e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_plant_5.fbx using Guid(d458e01886c684a449abefca599d5e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbf38e4f0f7ce4f8062e502759c108d') in 0.068832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_canopy_slanted.fbx
+  artifactKey: Guid(10575a56e8c9147a887b147b78740c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/TropicalIslandPack1/Models/island_canopy_slanted.fbx using Guid(10575a56e8c9147a887b147b78740c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5f6ae772c43c296d55314de8867be6') in 0.067361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.267462 seconds.
+  path: Assets/Level_1/ThirdParty/Nature pack extended/naturePack_149.obj
+  artifactKey: Guid(66be1c7d506eebb4db8d01bd875eecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Nature pack extended/naturePack_149.obj using Guid(66be1c7d506eebb4db8d01bd875eecac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5445c690430c8403a06dd9a8c7880878') in 0.138514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level_1/ThirdParty/Nature pack extended/naturePack_153.obj
+  artifactKey: Guid(53f91ba3df838384b853a42e9ca24f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Nature pack extended/naturePack_153.obj using Guid(53f91ba3df838384b853a42e9ca24f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afe38bf530853b7a1dda0c453fe3821') in 0.188671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Level_1/ThirdParty/Nature pack extended/naturePack_151.obj
+  artifactKey: Guid(6f821c245bbd1bb4dbbee8bf10cc656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Nature pack extended/naturePack_151.obj using Guid(6f821c245bbd1bb4dbbee8bf10cc656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4351480553b1e0d51af5af2c96dd655') in 0.060456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.409558 seconds.
+  path: Assets/Wizard/Models
+  artifactKey: Guid(e7f255dd32b819c4c85b13b3ff796faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard/Models using Guid(e7f255dd32b819c4c85b13b3ff796faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510ee97c92ec4eacdd96ec9dbf2a7efc') in 0.013006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061650 seconds.
+  path: Assets/Wizard/Models/StaffModel.fbx
+  artifactKey: Guid(199d5221dad59a74aa0d8d47e83e6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard/Models/StaffModel.fbx using Guid(199d5221dad59a74aa0d8d47e83e6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158af324c0dfc3ccc7286fcd18c5e720') in 0.036996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.776695 seconds.
+  path: Assets/Wizard/Materials
+  artifactKey: Guid(dad597d92b882e3488a73ab36ab2d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard/Materials using Guid(dad597d92b882e3488a73ab36ab2d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d94c1dec5e0ff54ff61213e5df60fc3') in 0.011577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073971 seconds.
+  path: Assets/Wizard/Materials/PolyArtStandardMaterial.mat
+  artifactKey: Guid(c33a548d6df8c8a4daca736f3300dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard/Materials/PolyArtStandardMaterial.mat using Guid(c33a548d6df8c8a4daca736f3300dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6216b8ff53b342842f4d10d906c7d8ac') in 0.024701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 528.057650 seconds.
+  path: Assets/Wizard/Animations/WizzardAnim.controller
+  artifactKey: Guid(8494109e9df0fb145ac1611ca2e04543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard/Animations/WizzardAnim.controller using Guid(8494109e9df0fb145ac1611ca2e04543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f69822aef39300d6aa7a4b3adef180') in 0.012127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.742185 seconds.
+  path: Assets/Wizard/Animations/WizardAnim.controller
+  artifactKey: Guid(8494109e9df0fb145ac1611ca2e04543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wizard/Animations/WizardAnim.controller using Guid(8494109e9df0fb145ac1611ca2e04543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f604e72f29b7bec800f06d1c871f61') in 0.009719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 340.461363 seconds.
+  path: Assets/Level_1/ThirdParty/Forest Arena/Textures/Bridgepsd.psd
+  artifactKey: Guid(e666dace909cecd429bb867adcf00334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Forest Arena/Textures/Bridgepsd.psd using Guid(e666dace909cecd429bb867adcf00334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207af468f3046a5042f2e1abbbb761bf') in 0.058838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr hidden.mat
+  artifactKey: Guid(7e3ff0d2def0b2a4d88ba94ab7c3e683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr hidden.mat using Guid(7e3ff0d2def0b2a4d88ba94ab7c3e683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ad62745d91cae835a2c80e551fc182') in 0.271029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme plain mid fine hdr ab.mat
+  artifactKey: Guid(e00e5f048f949bc4dac1b85325a691bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme plain mid fine hdr ab.mat using Guid(e00e5f048f949bc4dac1b85325a691bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca887657c307d73c1f814a9f3a76146a') in 0.253498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme crisp mid hdr ab.mat
+  artifactKey: Guid(87210e6cc6e78844cb678fb0fac0a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme crisp mid hdr ab.mat using Guid(87210e6cc6e78844cb678fb0fac0a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810b4d74405fc530e0ff76db5fe881cc') in 0.043439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/citadel_bridge.prefab
+  artifactKey: Guid(47787e06b20293d4da1261c91fa4aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/citadel_bridge.prefab using Guid(47787e06b20293d4da1261c91fa4aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e7372e85cbda61f6f6a3e15549511a') in 0.023723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme plain mid hdr ab.mat
+  artifactKey: Guid(79806570957f1ae44a69055e0fad62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme plain mid hdr ab.mat using Guid(79806570957f1ae44a69055e0fad62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a093b4d7ecb59b441c8bdbbf6b7740a9') in 0.036146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme blur mid hdr ab.mat
+  artifactKey: Guid(82d1a4b93a158084aa5868eaed32cc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme blur mid hdr ab.mat using Guid(82d1a4b93a158084aa5868eaed32cc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95407bae8cc73213216f9d27cd6ee5e') in 0.032854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_bridge_1_b.prefab
+  artifactKey: Guid(e131b8edd216f3f44b6b7c51d084bd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_bridge_1_b.prefab using Guid(e131b8edd216f3f44b6b7c51d084bd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042a9a3fd3e77cf1c6991f098cad508c') in 0.039760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_bridge_1_a.prefab
+  artifactKey: Guid(67250b40a6676684c8c551e4a1fddcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_bridge_1_a.prefab using Guid(67250b40a6676684c8c551e4a1fddcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fd81cf658006f410218bf530c7ecb6') in 0.041671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.619269 seconds.
+  path: Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Cattail.mat
+  artifactKey: Guid(17b228c11ad3d4ef29b4b51146f8786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Cattail.mat using Guid(17b228c11ad3d4ef29b4b51146f8786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d9fa007f135cdcb31b03d662d020ab') in 0.055723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr ghost trail add.mat
+  artifactKey: Guid(c965a6802e32f5847ad2bc4342b74778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr ghost trail add.mat using Guid(c965a6802e32f5847ad2bc4342b74778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c40e14f7cb6365f4c18ffdd53e5fb1') in 0.194053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme plain stable hdr ab.mat
+  artifactKey: Guid(3971f198822757548a4891ef95ae7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/FireEffect/OtherAssets/Graphics/cfxr flamme plain stable hdr ab.mat using Guid(3971f198822757548a4891ef95ae7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63d30fe32ab32485aa90724b157ca2f') in 0.041472 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010297 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1988ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1525ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.0 KB). Loaded Objects now: 4126.
+Memory consumption went from 159.9 MB to 159.7 MB.
+Total: 5.961400 ms (FindLiveObjects: 0.410700 ms CreateObjectMapping: 0.359800 ms MarkObjects: 5.030100 ms  DeleteObjects: 0.159500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014421 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3480ms)
+		BeginReloadAssembly (336ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (2959ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (1428ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (68ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (96ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.1 KB). Loaded Objects now: 4141.
+Memory consumption went from 159.9 MB to 159.8 MB.
+Total: 5.654200 ms (FindLiveObjects: 0.420500 ms CreateObjectMapping: 0.333500 ms MarkObjects: 4.750800 ms  DeleteObjects: 0.147900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.608 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2609ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2225ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (1068ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.3 KB). Loaded Objects now: 4156.
+Memory consumption went from 159.9 MB to 159.8 MB.
+Total: 6.084000 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.388800 ms MarkObjects: 5.122000 ms  DeleteObjects: 0.140900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2581.351879 seconds.
+  path: Assets/Level_1/Code/CharacterAnim.cs
+  artifactKey: Guid(4d33e58446b63ba43a266f49b3517df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/Code/CharacterAnim.cs using Guid(4d33e58446b63ba43a266f49b3517df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047639a405d58b937ab766f02191b2b1') in 0.030320 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021198 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1477ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.2 KB). Loaded Objects now: 4172.
+Memory consumption went from 160.1 MB to 159.9 MB.
+Total: 6.909500 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.336600 ms MarkObjects: 5.965700 ms  DeleteObjects: 0.205700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 402.144771 seconds.
+  path: Assets/Level_1/Code/CharacterAnim.cs
+  artifactKey: Guid(4d33e58446b63ba43a266f49b3517df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/Code/CharacterAnim.cs using Guid(4d33e58446b63ba43a266f49b3517df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1300f6398baa35b137bb533413118a') in 0.015054 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009616 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1941ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1494ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.3 KB). Loaded Objects now: 4187.
+Memory consumption went from 160.1 MB to 159.9 MB.
+Total: 6.632100 ms (FindLiveObjects: 0.603500 ms CreateObjectMapping: 0.451700 ms MarkObjects: 5.387500 ms  DeleteObjects: 0.187700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015374 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3945ms)
+		BeginReloadAssembly (653ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (2664ms)
+			LoadAssemblies (489ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1203ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (923ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (632ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.2 KB). Loaded Objects now: 4202.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 15.063800 ms (FindLiveObjects: 1.781300 ms CreateObjectMapping: 1.252600 ms MarkObjects: 11.848100 ms  DeleteObjects: 0.180000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010066 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.179 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4194ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (3688ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (2624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (1845ms)
+				ProcessInitializeOnLoadMethodAttributes (481ms)
+				AfterProcessingInitializeOnLoad (82ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.2 KB). Loaded Objects now: 4217.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 6.902900 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.637500 ms MarkObjects: 5.553600 ms  DeleteObjects: 0.211300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012457 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.203 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5212ms)
+		BeginReloadAssembly (408ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (4622ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (3605ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (375ms)
+				ProcessInitializeOnLoadAttributes (2855ms)
+				ProcessInitializeOnLoadMethodAttributes (263ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.1 KB). Loaded Objects now: 4232.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 6.375400 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.446400 ms MarkObjects: 5.332500 ms  DeleteObjects: 0.176000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011687 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4906ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (4472ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (3363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (453ms)
+				ProcessInitializeOnLoadAttributes (2447ms)
+				ProcessInitializeOnLoadMethodAttributes (320ms)
+				AfterProcessingInitializeOnLoad (88ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.1 KB). Loaded Objects now: 4247.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 24.659100 ms (FindLiveObjects: 0.585500 ms CreateObjectMapping: 0.452700 ms MarkObjects: 23.366600 ms  DeleteObjects: 0.252000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30\Documents\Анастасия Чуднова НЕ УДАЛЯТЬ\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4105ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (3659ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (2539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (2089ms)
+				ProcessInitializeOnLoadMethodAttributes (232ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (144.1 KB). Loaded Objects now: 4262.
+Memory consumption went from 160.2 MB to 160.0 MB.
+Total: 22.265400 ms (FindLiveObjects: 0.942600 ms CreateObjectMapping: 2.985400 ms MarkObjects: 18.152700 ms  DeleteObjects: 0.182400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
